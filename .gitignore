@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.sqlite3
+*.db
+
+# Flask instance folder
+instance/
+.webassets-cache
+
+# Docker
+*.log
+docker-compose.override.yml
+docker-compose.dev.yml
+
+# Jenkins
+*.jenkins
+jenkins/
+*.jenkinsfile
+
+# HTML/CSS build artifacts
+dist/
+build/
+*.min.css
+*.min.js
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+.env
+.vscode/
+.idea/
