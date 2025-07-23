@@ -7,11 +7,13 @@ __pycache__/
 *.venv
 env/
 venv/
+vectorstore/
 ENV/
 env.bak/
 venv.bak/
 *.sqlite3
 *.db
+*.egg-info
 
 # Flask instance folder
 instance/
