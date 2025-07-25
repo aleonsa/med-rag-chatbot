@@ -17,6 +17,9 @@ RUN apt-get update && apt-get install -y \
 ## Copying all contents from local to container
 COPY . .
 
+## printing stuff...
+RUN ls -la /app && cat setup.py && cat requirements.txt
+
 ## Install Python dependencies
 RUN pip install --no-cache-dir -e .
 
